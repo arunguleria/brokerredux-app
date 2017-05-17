@@ -24,7 +24,7 @@ export default {
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
-        'API_HOST': JSON.stringify('http://localhost:5000')
+        'API_HOST': JSON.stringify('https://brokerrailsapi.herokuapp.com/')
       } 
     })
   ],
